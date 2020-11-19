@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Infrastructure.BasicDomain.BasicEntitys
+namespace Com.Infrastructure.BasicDomain.BasicInterfaces
 {
     public interface IDTO
     {

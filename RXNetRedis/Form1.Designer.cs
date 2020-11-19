@@ -42,6 +42,8 @@
             this.Ctxt2 = new System.Windows.Forms.TextBox();
             this.CtxtId = new System.Windows.Forms.TextBox();
             this.CButtonChangeValue = new System.Windows.Forms.Button();
+            this.CtxtRabbitmq = new System.Windows.Forms.TextBox();
+            this.CbtnRabbitStart = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,12 +52,14 @@
             this.CFullText.Dock = System.Windows.Forms.DockStyle.Top;
             this.CFullText.Location = new System.Drawing.Point(0, 0);
             this.CFullText.Name = "CFullText";
-            this.CFullText.Size = new System.Drawing.Size(1175, 636);
+            this.CFullText.Size = new System.Drawing.Size(1175, 459);
             this.CFullText.TabIndex = 0;
             this.CFullText.Text = "";
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.CbtnRabbitStart);
+            this.panel1.Controls.Add(this.CtxtRabbitmq);
             this.panel1.Controls.Add(this.CbtnALL);
             this.panel1.Controls.Add(this.btnUpdate2);
             this.panel1.Controls.Add(this.CbtnGetAll2);
@@ -69,9 +73,9 @@
             this.panel1.Controls.Add(this.CtxtId);
             this.panel1.Controls.Add(this.CButtonChangeValue);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 635);
+            this.panel1.Location = new System.Drawing.Point(0, 456);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1175, 148);
+            this.panel1.Size = new System.Drawing.Size(1175, 327);
             this.panel1.TabIndex = 1;
             // 
             // CbtnALL
@@ -112,7 +116,6 @@
             this.CbtnUpdate.TabIndex = 4;
             this.CbtnUpdate.Text = "修改值";
             this.CbtnUpdate.UseVisualStyleBackColor = true;
-            //this.CbtnUpdate.Click += new System.EventHandler(this.CbtnUpdate_Click);
             // 
             // CbuttonDeleteById
             // 
@@ -187,6 +190,23 @@
             this.CButtonChangeValue.UseVisualStyleBackColor = true;
             this.CButtonChangeValue.Click += new System.EventHandler(this.CButtonChangeValue_Click);
             // 
+            // CtxtRabbitmq
+            // 
+            this.CtxtRabbitmq.Location = new System.Drawing.Point(39, 174);
+            this.CtxtRabbitmq.Name = "CtxtRabbitmq";
+            this.CtxtRabbitmq.Size = new System.Drawing.Size(100, 23);
+            this.CtxtRabbitmq.TabIndex = 6;
+            // 
+            // CbtnRabbitStart
+            // 
+            this.CbtnRabbitStart.Location = new System.Drawing.Point(160, 173);
+            this.CbtnRabbitStart.Name = "CbtnRabbitStart";
+            this.CbtnRabbitStart.Size = new System.Drawing.Size(75, 23);
+            this.CbtnRabbitStart.TabIndex = 7;
+            this.CbtnRabbitStart.Text = "发送事件";
+            this.CbtnRabbitStart.UseVisualStyleBackColor = true;
+            this.CbtnRabbitStart.Click += new System.EventHandler(this.CbtnRabbitStart_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -221,6 +241,8 @@
         private System.Windows.Forms.Button CbtnGetAll2;
         private System.Windows.Forms.Button G;
         private System.Windows.Forms.Button etAl;
+        private System.Windows.Forms.Button CbtnRabbitStart;
+        private System.Windows.Forms.TextBox CtxtRabbitmq;
     }
 }
 

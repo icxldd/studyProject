@@ -1,8 +1,9 @@
 ﻿using System;
-using Com.Infrastructure.BasicDomain.BasicEntitys;
+using Com.Infrastructure.BasicDomain.BasicInterfaces;
+
 namespace Com.Infrastructure.Entitys.DTO
 {
-    public class AccountDTO : IDTO
+    public class AccountDTO : IDTO,IEntityTransfer<Account>
     {
         public string id { get; set; }
         public string name { get; set; }

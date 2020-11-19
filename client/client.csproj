@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\classlibrary\classlibrary.csproj" />
+    <ProjectReference Include="..\Com.Infrastructure.Entitys\Com.Infrastructure.Entitys.csproj" />
+    <ProjectReference Include="..\Com.Infrastructure.RedisDomain\Com.Infrastructure.BasicDomain.csproj" />
+  </ItemGroup>
+
+</Project>

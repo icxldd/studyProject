@@ -1,4 +1,4 @@
-﻿using Com.Infrastructure.BasicDomain.BasicEntitys;
+﻿using Com.Infrastructure.BasicDomain.BasicInterfaces;
 using ServiceStack.Redis;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,6 @@ namespace Com.Infrastructure.BasicDomain.Interfaces
                           where DTO : class, IDTO, new()
     {
 
-        IRedisClientAsync Redis { get; }
         //获取单个根据id
         Task<T> GetByIdAsync(string id);
         //获取多条 

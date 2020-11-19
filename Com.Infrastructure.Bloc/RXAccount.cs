@@ -1,4 +1,5 @@
 ﻿using Com.Infrastructure.Entitys;
+using Com.Infrastructure.Entitys.Entitys;
 using System;
 using System.Collections.Generic;
 using System.Reactive.Subjects;

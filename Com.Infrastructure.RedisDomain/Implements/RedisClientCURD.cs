@@ -4,9 +4,9 @@ using System.Text;
 using System.Threading.Tasks;
 using ServiceStack.Redis;
 using System.Linq;
-using Com.Infrastructure.BasicDomain.BasicEntitys;
 using Com.Infrastructure.BasicDomain.Interfaces;
 using Com.Infrastructure.BasicDomain.Basic;
+using Com.Infrastructure.BasicDomain.BasicInterfaces;
 
 namespace Com.Infrastructure.BasicDomain.Implements
 {

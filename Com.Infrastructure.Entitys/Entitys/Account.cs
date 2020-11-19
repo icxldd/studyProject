@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Com.Infrastructure.BasicDomain.BasicEntitys;
-using Com.Infrastructure.Entitys.DTO;
-namespace Com.Infrastructure.Entitys
+using Com.Infrastructure.BasicDomain.BasicInterfaces;
+using Com.Infrastructure.Entitys.Dtos;
+
+namespace Com.Infrastructure.Entitys.Entitys
 {
     public class Account : IEntity, IDTOTransfer<AccountDTO>
     {

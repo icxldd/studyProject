@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 using Com.Infrastructure.BasicDomain.Interfaces;
 using Com.Infrastructure.BasicDomain.Implements;
+
 namespace ElasticSearchPC
 {
     public partial class Form2 : Form

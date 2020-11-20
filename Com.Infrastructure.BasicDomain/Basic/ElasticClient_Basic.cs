@@ -13,4 +13,6 @@ namespace Com.Infrastructure.BasicDomain.Basic
 
 
     }
+
+
 }

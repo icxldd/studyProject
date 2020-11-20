@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Com.Infrastructure.BasicDomain\Com.Infrastructure.BasicDomain.csproj" />
     <ProjectReference Include="..\Com.Infrastructure.RedisDomain\Com.Infrastructure.BasicDomain.csproj" />
   </ItemGroup>
 

@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Com.Infrastructure.BasicDomain\Com.Infrastructure.BasicDomain.csproj" />
     <ProjectReference Include="..\Com.Infrastructure.Bloc\Com.Infrastructure.Bloc.csproj" />
     <ProjectReference Include="..\Com.Infrastructure.Entitys\Com.Infrastructure.Entitys.csproj" />
     <ProjectReference Include="..\Com.Infrastructure.RedisDomain\Com.Infrastructure.BasicDomain.csproj" />

@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\classlibrary\classlibrary.csproj" />
+    <ProjectReference Include="..\Com.Infrastructure.BasicDomain\Com.Infrastructure.BasicDomain.csproj" />
   </ItemGroup>
 
 </Project>
